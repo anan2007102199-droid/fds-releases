@@ -1,0 +1,13 @@
+{
+  "id": "doubao",
+  "name": "豆包 网页版",
+  "url": "https://www.doubao.com/chat/",
+  "newChatUrl": "https://www.doubao.com/chat/",
+  "input": "textarea, div[contenteditable=true]",
+  "send": "button[data-testid*='send'], #flow-end-msg-send",
+  "reply": "[data-testid*='message_text_content'], [class*='markdown']",
+  "generating": "[data-testid*='stop']",
+  "login": "input[type=tel], input[placeholder*='手机号']",
+  "human": "iframe[src*='captcha'], #cf-challenge-running",
+  "stableSeconds": 5
+}
