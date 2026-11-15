@@ -1,0 +1,13 @@
+{
+  "id": "chatgpt",
+  "name": "ChatGPT 网页版",
+  "url": "https://chatgpt.com/",
+  "newChatUrl": "https://chatgpt.com/",
+  "input": "#prompt-textarea",
+  "send": "button[data-testid='send-button']",
+  "reply": "div[data-message-author-role='assistant'] .markdown",
+  "generating": "button[data-testid='stop-button']",
+  "login": "button[data-testid='login-button'], input[type=email]",
+  "human": "iframe[src*='captcha'], #cf-challenge-running",
+  "stableSeconds": 5
+}
