@@ -1,0 +1,13 @@
+{
+  "id": "qwen",
+  "name": "千问 网页版",
+  "url": "https://www.qianwen.com/",
+  "newChatUrl": "https://www.qianwen.com/",
+  "input": "textarea, div[contenteditable=true]",
+  "send": "",
+  "reply": "[class*='markdown'], [class*='answer']",
+  "generating": "[class*='stop']",
+  "login": "input[type=tel], input[placeholder*='手机号']",
+  "human": "iframe[src*='captcha'], #cf-challenge-running",
+  "stableSeconds": 5
+}
