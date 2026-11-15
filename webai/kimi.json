@@ -1,0 +1,13 @@
+{
+  "id": "kimi",
+  "name": "Kimi 网页版",
+  "url": "https://www.kimi.com/",
+  "newChatUrl": "https://www.kimi.com/",
+  "input": "div[contenteditable=true], textarea",
+  "send": "",
+  "reply": ".markdown, [class*='segment-content']",
+  "generating": "[class*='stop']",
+  "login": "input[type=tel], input[placeholder*='手机号']",
+  "human": "iframe[src*='captcha'], #cf-challenge-running",
+  "stableSeconds": 5
+}
