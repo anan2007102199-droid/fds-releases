@@ -1,0 +1,12 @@
+{
+  "id": "deepseek",
+  "name": "DeepSeek 网页版",
+  "url": "https://chat.deepseek.com/",
+  "input": "textarea#chat-input, textarea",
+  "send": "",
+  "reply": ".ds-markdown",
+  "generating": "",
+  "login": "input[type=password], input[placeholder*='手机号'], input[placeholder*='邮箱']",
+  "human": "iframe[src*='captcha'], #cf-challenge-running",
+  "stableSeconds": 4
+}
