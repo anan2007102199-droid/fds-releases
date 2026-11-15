@@ -1,0 +1,13 @@
+{
+  "id": "claude",
+  "name": "Claude 网页版",
+  "url": "https://claude.ai/new",
+  "newChatUrl": "https://claude.ai/new",
+  "input": "div[contenteditable=true]",
+  "send": "button[aria-label*='Send']",
+  "reply": "div.font-claude-response, [data-testid*='message']",
+  "generating": "button[aria-label*='Stop']",
+  "login": "input[type=email]",
+  "human": "iframe[src*='captcha'], #cf-challenge-running",
+  "stableSeconds": 5
+}
